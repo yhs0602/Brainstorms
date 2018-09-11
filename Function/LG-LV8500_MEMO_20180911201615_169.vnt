@@ -1,0 +1,18 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:const char synfuncorg[]=__asm{
+push [esp+4]
+call 0x00000000
+add esp,4
+mov [esp+4],eax
+};
+
+function MakeDynamicSynFunc(function o,function s){
+void *r=malloc(256);
+int size=sizeof(*o);
+memcpy(r,synfuncorg,sizeof(synfuncorg));
+(function)(r[addr])=s;
+DCREATED:20150410T191500
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

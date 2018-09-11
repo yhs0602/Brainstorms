@@ -1,0 +1,17 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:에러 시 NULL반환으로 인한 NullpointerExpt 대처
+
+#define GT_EXPR(i,j,k,l,p)\
+i=getexpr;
+if(i==NULL){
+free(k);
+free(l);
+return NULL;
+}
+
+결론:DynamicMemAlloc은 어렵다!
+DCREATED:20150615T170900
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

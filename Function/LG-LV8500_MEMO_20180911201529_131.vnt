@@ -1,0 +1,37 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.5 double Calc(double x,func *f){
+double y=func->fr(x),z;
+if(func->next!=NULL){
+z=Calc(x,f->next);
+switch(func->relation[NEX]){
+case ADD:
+y+=z;
+break;
+case SUB:
+y-=z;
+break;
+case MUL:
+y*=z;
+break;
+case DIV:
+if(z==0)error(ZERO);
+else y/=z;
+break;
+/*
+case SYN:
+y=Calc(func->next,y);
+break;
+*/
+case POW:
+y=pow(y,z);
+break;
+default:
+error(INVALIDFUNC);
+}
+return y;
+}
+DCREATED:20150306T171400
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

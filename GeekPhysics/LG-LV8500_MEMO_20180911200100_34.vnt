@@ -1,0 +1,21 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:GeekPhysics9
+public class MobilePictureBox:PictureBox{
+bool phase;
+private void onClicked(…){
+phase=true;
+}
+private void onMouse_moved(…){
+if(phase){
+this.x=e.mx;
+this.y=e.my;
+}
+}
+private void onMouse_Up(…){
+phase=false;
+}
+DCREATED:20140924T154100
+LAST-MODIFIED:20180911T200100
+CLASS:PUBLIC
+END:VNOTE

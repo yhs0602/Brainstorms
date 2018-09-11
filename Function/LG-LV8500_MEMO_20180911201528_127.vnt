@@ -1,0 +1,9 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.1 header i//UI
+void Plot(HDC hdc,int sx,int ex,func *f);
+void PlotEx(HDC hdc,int sx,int ex,int sy,int ey,func *f);
+DCREATED:20150413T191300
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

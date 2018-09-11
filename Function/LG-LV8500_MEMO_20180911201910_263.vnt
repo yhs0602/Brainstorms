@@ -1,0 +1,24 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:FModule *CreateFModules(const char *s){
+int length=strlen(s);
+int digit=0,tnum=0;
+BOOL bdiv,bnum;
+FModule *slave,*next,*now=*master=CreateNode();
+for(int i=0;i<length;){
+if(s[i]==' '){
+bdiv=TRUE;
+i++;
+continue;
+}
+if(s[i]=='+'){
+now->next=CreateNode();
+now->op=ADD;
+i++;
+now=now->next;
+continue;
+}
+DCREATED:20150511T202600
+LAST-MODIFIED:20180911T201900
+CLASS:PUBLIC
+END:VNOTE

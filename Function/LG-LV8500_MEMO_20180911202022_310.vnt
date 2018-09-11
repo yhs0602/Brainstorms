@@ -1,0 +1,16 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:priority
+call할때
+0:단항연산자부분만 받겠다
+1:곱하기 나누기만 맏겠다
+2:더하기 빼기만 받겠다
+(나보다 우선순위 높은 것만 미리 받아 주겠다)
+called:
+1.내가 미리 계산해도 되나?
+2.미리 계산할게 있나?(우선순위 있는 애?)
+3.계산
+DCREATED:20150614T144300
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

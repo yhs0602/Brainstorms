@@ -1,0 +1,13 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:func* CreateFunc(UINT32 flags,double (*fc)(double)){
+func* f=malloc(sizeof(func));
+f->next=NULL;
+f->func=fc;
+f->flags=flags;
+return func;
+}
+DCREATED:20141217T220100
+LAST-MODIFIED:20180911T201400
+CLASS:PUBLIC
+END:VNOTE

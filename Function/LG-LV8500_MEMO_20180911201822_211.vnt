@@ -1,0 +1,13 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:mov eax,[esp+4]
+push eax
+call func
+mov ecx,eax
+pop eax
+add/sub/mul/div ecx,eax
+ret
+DCREATED:20150425T194900
+LAST-MODIFIED:20180911T201800
+CLASS:PUBLIC
+END:VNOTE

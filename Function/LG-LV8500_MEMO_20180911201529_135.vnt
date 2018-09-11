@@ -1,0 +1,13 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.9 double iIntegrate(int sx,int ex,func *f){
+double x=sx,sum;
+for(;x<=ex;x+=0.01){
+sum+=Calc(f,x)*0.01;
+}
+return sum;
+}
+DCREATED:20150412T125300
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

@@ -1,0 +1,11 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-23match추가요구사항
+1. +,-,*,/,^,(,)허용
+2.숫자지원
+3.연산우선순위->전처리기의 "()"추가
+4.sin,cos,tan,asin,acos,atan,csc,sec,cot,exp,log,ln,sinh,cosh,tanh,abs,[],{},sqrt,mod,int,dq,추가
+DCREATED:20150306T172300
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

@@ -1,0 +1,17 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6 func* MakeFunc(char *s){
+Relation op;
+char tokens[8][],temp[8]={0,0,0,0,0,0,0,0};
+int ti=tei=0;
+BOOL contspace=pisop=nisop=nisnum=pisnum=FALSE,bfirst=TRUE;
+func *funchead=malloc(sizeof(func)),fprev,fnow,findex;
+//ToLOWER
+for(int i=0;s[i]!=NULL;i++){
+if(isupper(s[i])
+s[i]=tolower(s[i]);
+}
+DCREATED:20150304T142600
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

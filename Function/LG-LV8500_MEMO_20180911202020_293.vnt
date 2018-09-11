@@ -1,0 +1,15 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:char*의 expression을 계산가능한 식으로 변환!!
+1.expression⇒digit(단순치환)
+int* dig(char *s){
+int f[200];
+for(int i=0;s[i]!=NULL;i++){
+f[i]=s[i]*s[i];
+}
+return f;
+}
+DCREATED:20150607T183300
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

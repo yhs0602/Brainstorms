@@ -1,0 +1,18 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.4 header ii//나머지는 핵심(함수 생성및제어)
+typedef double(*)(int) function;
+enum Relation{BEF,NEX,ADD,SUB,MUL,DIV,SYNL,SYNR,POW};
+typedef struct tagf{
+tagf* next,before;
+function fr;
+Relation r[2];
+bool syn[2];
+}func;
+double Calc(int x,func *f);
+func* MakeFunc(char *s);
+char* MakeChar(func *f);
+DCREATED:20150406T171000
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

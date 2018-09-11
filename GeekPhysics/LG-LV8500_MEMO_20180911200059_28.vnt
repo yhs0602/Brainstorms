@@ -1,0 +1,21 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:GeekPhysics5.cs
+stuff::think(){
+List<stuff> others=Form.stuffs;
+foreach(stuff todo in others){
+foreach(Field f in todo.fields)
+if(f.Contains(new Point(x,y)){
+switch(todo.field.id){
+case GRAVITY:
+//GmM/r^2
+case ELECTRICITY:
+//kQq/r^2
+case MAGNETICS:
+//kmM/r^2
+case BUMP:
+//충돌:운동량보존
+DCREATED:20150116T115800
+LAST-MODIFIED:20180911T200000
+CLASS:PUBLIC
+END:VNOTE

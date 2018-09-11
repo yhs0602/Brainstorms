@@ -1,0 +1,20 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:Point *GetChangeline(func *f){
+//더 좋은것으로 교체가능
+int index=0;
+Point *sol=malloc(sizeof(Point));
+for(double x=-infinity;x<infinity;x+=DX){
+if(DoubleDiffQuotient(x,f)==0){
+index++;
+realloc(sol,index*sizeof(Point));
+sol[index-1]->x=x;
+sol[index-1]->y=Calc(x,f);
+}
+}
+return sol;
+}
+DCREATED:20150413T172500
+LAST-MODIFIED:20180911T201700
+CLASS:PUBLIC
+END:VNOTE

@@ -1,0 +1,20 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:double CalcOp(operator op,double x1,double x2){
+double r;
+if(op==ADD){
+r=x1+x2;
+}else if(op==SUB){
+r=x1-x2;
+}else if(op==MUL){
+r=x1*x2;
+}else if(op==DIV){
+if(x2!=0)
+r=x1/x2;
+}else if(op==POW){
+r=x1^x2;
+}else 
+DCREATED:20150514T155800
+LAST-MODIFIED:20180911T201900
+CLASS:PUBLIC
+END:VNOTE

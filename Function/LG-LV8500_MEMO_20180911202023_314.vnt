@@ -1,0 +1,17 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:/*단항 연산자*/
+if(*p=='+'){
+p=skipspace(p+1);
+i->getexpr=getexpr(&p,0);
+i->
+}else if(*p=='-'){
+p=skipspace(p+1);
+i->getexpr=getexpr(&p,0);
+if(i!=NULL){
+i=negexpr(i);
+}
+DCREATED:20150616T165700
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

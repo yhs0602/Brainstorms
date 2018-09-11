@@ -1,0 +1,17 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:int ExecFuncsub(data *d){
+char c=d->c;
+int *power=d->power, *nums[50]=d->nums,*nindex=d->nindex,*tnum=d->tnum, *phase=d->phase;
+
+if(isdigit(c)){
+*tnum=10**tnum+atoi(c);
+return 0;
+}
+switch(c){
+case '+':
+
+DCREATED:20150211T131600
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

@@ -1,0 +1,20 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:double CalcBrothers(double x,FModule *f){
+double i=body(CalcBrothers(x,f->slave));
+if(f->degree){
+i=pow(i,f->degree);
+}
+if(f->quotient){
+i*=f->degree;
+}
+if(f->next!=NULL){
+return CalcOp(i,CalcBrothers(x,next);
+}else{
+return i;
+}
+}
+DCREATED:20150514T160200
+LAST-MODIFIED:20180911T201800
+CLASS:PUBLIC
+END:VNOTE

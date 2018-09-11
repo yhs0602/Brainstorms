@@ -1,0 +1,29 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:GeekPhysics7.cs
+7.class Field{
+int id,x,y;
+bool Contains(Point p){
+bool answer=true;
+Rectangle r=new Rectangle(p.x,p.y,x,y);
+switch(id){
+case GRAVITY:
+case ELECTRICITY:
+break;
+case MAGNETICITY:
+foreach(stuff i in Form.stuffs){
+if(i is iron&&r.Contains(new Point(i.x,i.y)){
+answer=false;
+break;
+}}
+break;
+case BUMP:
+answer=(p.x==x)&&(p.y)==y;
+break;
+}
+return answer;
+}
+DCREATED:20150116T120000
+LAST-MODIFIED:20180911T200000
+CLASS:PUBLIC
+END:VNOTE

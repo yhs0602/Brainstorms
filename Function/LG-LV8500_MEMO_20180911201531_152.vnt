@@ -1,0 +1,14 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.5A Calc SYNL/R
+//아마 재귀대신 루프가 될듯…
+//아니군 재귀는 유지된다
+case SYNL:
+y=Calc(func->next,y);
+break;
+case SYNR:
+return;
+DCREATED:20150406T170400
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

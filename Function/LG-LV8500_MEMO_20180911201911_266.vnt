@@ -1,0 +1,17 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:CFM R&D
+1.처리 제어용 BOOL 필요
+》》최종목표:건너뛸때 중복처리(함수재생성) 방지
+
+bnum:숫자를 모으고 있는가(다음에 숫자가 아니면 함수 계수,지수,상수 set)
+bdiv:공백으로 토큰을 나누었는가
+
+2.문자 처리 중간 변수 필요
+3.함수 node 효율적인 관리 필요
+
+∞.node보다 더 효율적인 자료구조 찾기
+DCREATED:20150514T160300
+LAST-MODIFIED:20180911T201900
+CLASS:PUBLIC
+END:VNOTE

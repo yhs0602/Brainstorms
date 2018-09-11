@@ -1,0 +1,22 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-5 makefunc5
+else(nisop){
+if(pisop∥findex==funchead){
+if(op!=SYNL∥
+error("op연속");
+else
+fprev->relation[NEX]=op;
+fprev=fnow;
+}
+pisop=nisop;
+pisnum=nisnum;
+}
+backups[bui]=funchead;
+bui++;
+return funchead;
+}
+DCREATED:20150307T151100
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

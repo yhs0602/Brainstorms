@@ -1,0 +1,16 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:info.h
+#ifndef _INFO_H
+#define _INFO_H
+#include"Mtypes.h"
+double DoubleDiffQuotient(double x,func f);
+Point *GetChangeline(func *f);
+Point *GetExtreme(func *f);
+double *GetSolution(func* f);
+Info* GetInfo(func *f);
+#endif
+DCREATED:20150413T172800
+LAST-MODIFIED:20180911T201700
+CLASS:PUBLIC
+END:VNOTE

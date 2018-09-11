@@ -1,0 +1,29 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:GeekPhysics4.cs
+class stuff{
+int x,y:좌표
+int vx,vy:속도
+int ax,ay:가속도
+PictureBox image:이미지
+uint mass:질량
+udouble friction:마찰계수
+udouble elasticity:탄성계수
+Field field:장
+uint charge:전하
+
+do(){
+think();
+int i=timer.Interval;
+vx+=ax/i;
+vy+=ay/i;
+x+=vx/i;
+y+=vy/i;
+image.Visible=Form.boundary.Contains(new Point(x,y));
+image.x=x;
+image.y=y;
+}
+DCREATED:20150116T115500
+LAST-MODIFIED:20180911T200000
+CLASS:PUBLIC
+END:VNOTE

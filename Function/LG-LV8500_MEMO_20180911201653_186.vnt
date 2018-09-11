@@ -1,0 +1,13 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:double sIntegrate(int sx,int sy,func *f){
+double x=sx,sum=sy;
+for(;;x+=DX){
+sum+=Calc(f,x)*DX;
+yield return sum;
+}
+}
+DCREATED:20150413T172900
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

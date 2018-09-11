@@ -1,0 +1,27 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-2 makefunc2
+//Tokenize
+for(;*s!=NULL;s++){
+if(*s==' ')
+{
+if(contspace==FALSE){
+contspace=TRUE;
+strcpy(tokens[ti],temp,strlen((temp));
+ti++;
+for(int i=0;i<8;i++){
+temp[i]=0;
+}
+tei=0;
+}
+continue;
+}
+contspace=FALSE;
+temp[tei]=*s;
+tei++;
+if(tei>8)error("너무길다");
+}
+DCREATED:20150423T231400
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

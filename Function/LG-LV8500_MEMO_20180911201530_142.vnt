@@ -1,0 +1,23 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-21 makefunc2.1
+//Func match
+function fsrc;
+double num;
+if(strcmp(tokens[i],"x")){
+nisop=FALSE;
+fsrc=fidentity;
+}else if(strcmp(tokens[i],"ADD")){
+nisop=TRUE;
+op=ADD;
+}else if(strcmp(tokens[i],"SUB")){
+nisop=TRUE;
+op=SUB;
+}else if(strcmp(tokens[i],"MUL")){
+nisop=TRUE;
+op=MUL;
+}
+DCREATED:20150302T130700
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

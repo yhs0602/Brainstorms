@@ -1,0 +1,22 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:+x^(32x)
+xor ecx,ecx
+mov eax,[esp+4]
+push eax
+call 32_x
+mov edx,eax
+pop eax
+push edx
+push eax
+call _pow
+add ecx,eax
+pop edx
+pop eax
+mov eax,ecx
+ret
+
+DCREATED:20150425T195300
+LAST-MODIFIED:20180911T201800
+CLASS:PUBLIC
+END:VNOTE

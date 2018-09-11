@@ -1,0 +1,14 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.3 void PlotEx(HDC hdc,int sx,int ex,int sy,int ey,func *f){
+int y;
+for(int x=sx;x<=ex;x++){
+y=calc(x,f);
+if(y>=sy&&y<=ey)
+SetPixel(hdc,x,y);
+}
+}
+DCREATED:20150228T173100
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

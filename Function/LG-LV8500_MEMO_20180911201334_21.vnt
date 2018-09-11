@@ -1,0 +1,11 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:void SetQuotients(POLY *p,unsigned int offset,unsigned int limit, double q1,...){
+double *quotients=&q1;
+unsigned int dg=p->maxdegree;
+int counter=offset;
+for(;counter<=limit;counter++)
+DCREATED:20140906T133600
+LAST-MODIFIED:20180911T201300
+CLASS:PUBLIC
+END:VNOTE

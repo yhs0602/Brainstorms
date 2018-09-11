@@ -1,0 +1,14 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:합성함수 추가 R&D
+합성함수를 추가해야 한다
+'('가 골치아프다
+ 동적 함수 생성이 필요하다
+1.기존처럼 컴파일
+2.유연하게 기계어
+!!!!동적 링킹이 필요함!!
+컴파일러와 CPU가 허락한다면 malloc하고 그 주소를 함수 포인터로 캐스트 후 assembly로 mov [ebp-4] ,x등으로 만든후 link!!
+DCREATED:20150407T164900
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

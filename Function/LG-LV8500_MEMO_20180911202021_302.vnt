@@ -1,0 +1,28 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:funcdef.c
+#include "funcdef.h"
+double PLUS1(double x){
+return x;
+}
+double MINUS1(double x){
+return -x;
+}
+double PLUS2(double o1,double o2){
+return o1+o2;
+}
+double MINUS2(double o1,double o2){
+return o1-o2;
+}
+double MUL2(double o1,double o2){
+return o1*o2;
+}
+double DIV2(double,double){
+if(o2!=0)
+return o1/o2;
+else return 0;
+}
+DCREATED:20150613T114300
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

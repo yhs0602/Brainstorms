@@ -1,0 +1,16 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.D정적분템플릿
+Caption:정적분
+크기:500*500
+Child
+label:start x좌표:(50,50)
+edit:1줄 5자,100,50,100,50
+label:end x좌표:(50,120)
+edit:1줄 5자,100,120,100,50
+okbutton:50,200,100,50(OK)(close();dintegrate(sx,ex);
+ccbutton:50,200,100,50(Cancel)Close(); 
+DCREATED:20150411T232000
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

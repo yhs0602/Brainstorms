@@ -1,0 +1,15 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.D함수추가 템플릿
+Caption:함수 추가
+크기:400*800
+Child
+label:(어법에 맞게 함수를 입력하십시오,50,50,100,50)
+edit:1줄 스크롤가능 200자,50,120,200,50
+okbutton:300,50,100,50,OK(Close();Compile(char);)
+ccbutton:300,120,100,50,Cancel(Close());
+hpbutton:300,190,100,50,Help(Showhelp());
+DCREATED:20150411T193000
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

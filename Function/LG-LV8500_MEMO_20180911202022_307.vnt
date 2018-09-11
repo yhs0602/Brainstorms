@@ -1,0 +1,26 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:/*이항연산자*/
+for(;;){
+if(i==NULL){
+break;
+}
+p=skipspace(p);
+if(*p=='+'&&priority>2){
+p=skipspace(p+1);
+j=getexpr(&p,2);
+if(j!=NULL){
+i=addexpr(i,j);
+}else i=NULL;
+}else if(*p=='-'&&priority>2){
+p=skipspace(p+1);
+j=getexpr(&p,2);
+if(j!=NULL){
+i=subexpr(i,j);
+}else i=NULL;
+}
+
+DCREATED:20150615T165900
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

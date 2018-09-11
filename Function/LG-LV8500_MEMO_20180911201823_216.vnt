@@ -1,0 +1,11 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:즉석컴파일의 한계
+실수 연산이 필요!!
+fadd,fmul,fdiv…필요
+&부동소수점산술coprocessor메모리와 스택구조를 잘 모름
+실수 연산 레지스터가 없어 st1,2..를 써야함
+DCREATED:20150426T212000
+LAST-MODIFIED:20180911T201800
+CLASS:PUBLIC
+END:VNOTE

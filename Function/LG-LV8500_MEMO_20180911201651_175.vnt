@@ -1,0 +1,26 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8://s[0]를 r위치에 복사
+__asm{
+pushad
+mov esi,[esp+36];s
+mov esi,[esi]+sizeof(synfuncorg);s[0]
+mov ebx,[esp-8];size
+xor ecx,ecx
+mov edi,[esp-4];r
+cloop:
+mov eax,byte[esi];1개
+mov [edi],eax
+inc ecx
+inc esi
+inc edi
+cmp ecx,ebx
+jbe cloop
+popad
+};
+return (function)r;
+}
+DCREATED:20150410T191100
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

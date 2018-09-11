@@ -1,0 +1,15 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:transfunc.c
+#define DECLARE_TF(name,length,funcname)\
+else if(strncmp(p,name,length)){\
+p=skipspace(p+length);\
+j=getexpr(&p,0);\
+if(j!=INVALID){\
+i.getexpr=&j;
+i.
+}\
+DCREATED:20150614T164500
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

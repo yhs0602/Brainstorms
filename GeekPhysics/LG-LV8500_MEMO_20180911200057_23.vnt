@@ -1,0 +1,23 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:GeekPhysics0.cs
+1.폼 그리기
+2.이벤트 핸들러
+XBarChanged:
+x=XBar.value;
+YBarChanged:
+y=YBar.value;
+VXBarChanged:
+vx=VXBar.value;
+VYBarChanged:
+vy=VYBar.value;
+AXBarChanged:
+ax=AXBar.value;
+AYBarChanged:
+ay=AYBar.value;
+AccuracyBarChanged:
+timer.interval=CONSTANTS.KINTERVAL/AccuracyBar.value;
+DCREATED:20141010T151600
+LAST-MODIFIED:20180911T200000
+CLASS:PUBLIC
+END:VNOTE

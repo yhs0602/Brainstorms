@@ -1,0 +1,25 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:else if(*p=='*'&&priority>1){
+p=skipspace(p+1);
+*j=getexpr(&p,1);
+if(*j!=INVALID){
+*i=mulexpr(i,j);
+}else *i=INVALID;
+}else if(*p=='/'&&priority>1){
+p=skipspace(p+1);
+*j=getexpr(&p,1);
+if(*j!=INVALID){
+*i=divexpr(i,j);
+}else *i=INVALID;
+}else if(*p=='^'&&priority>0){
+p=skipspace(p+1);
+*j=getexpr(&p,0);
+if(*j!=INVALID){
+*i=powexpr(i,j);
+}else *i=INVALID;
+}
+DCREATED:20150614T164900
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

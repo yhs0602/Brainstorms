@@ -1,0 +1,16 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-24 makefunc2.3
+//Func match3
+else{
+nisop=FALSE;
+if(sscanf(tokens[i],"%lf",&num)==){
+nisnum=TRUE;
+}else{
+error("이상한 연산자");
+}
+}
+DCREATED:20150304T142800
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

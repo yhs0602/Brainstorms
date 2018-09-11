@@ -1,0 +1,21 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-22 makefunc2.2
+//Func match2
+else if(strcmp(tokens[i],"DIV")){
+nisop=TRUE;
+op=DIV;
+}else if(strcmp(tokens[i],"SYNL")){
+nisop=TRUE;
+op=SYNL;
+}else if(strcmp(tokens[i],"SYNR")){
+nisop=TRUE;
+op=SYNR;
+}else if(strcmp(tokens[i],"POW")){
+nisop=TRUE;
+op=POW;
+}
+DCREATED:20150307T150700
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

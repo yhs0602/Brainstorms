@@ -1,0 +1,15 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:double calc(func *f,int x){
+double o=x;
+while(1){
+if(!f)break;
+o=f->func(o);
+f=f->next;
+}
+return x;
+}
+DCREATED:20141217T220200
+LAST-MODIFIED:20180911T201400
+CLASS:PUBLIC
+END:VNOTE

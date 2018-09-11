@@ -1,0 +1,18 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:미분기 인프라-다항함수C구조체정의
+typedef struct polymul{
+unsigned char var;
+unsigned int degree;
+polymul* mul;
+}POLYMUL;
+typedef struct polynominal{
+unsigned char var;
+unsigned int maxdegree;
+POLYMUL **modules;
+double* quotients;
+}POLY;
+DCREATED:20140904T184700
+LAST-MODIFIED:20180911T201300
+CLASS:PUBLIC
+END:VNOTE

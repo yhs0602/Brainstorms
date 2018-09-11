@@ -1,0 +1,19 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:Q>syn의 정체성
+함수인가?연산자인가?
+A>
+i>함수
+무슨함수?
+a1)
+
+ii>연산자
+((((x)y)w)z)처리?
+a1)함수 여러연산자 허용☞스택☞△
+
+iii>독립적 type?
+
+DCREATED:20150406T170300
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

@@ -1,0 +1,20 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.단축키일람
+Ctrl+N 함수추가
+Ctrl+P 그리기
+Ctrl+W 모두지우기
+Ctrl+M 메모리정리
+Ctrl+G 정보얻기
+Ctrl+D 미분
+Ctrl+I 정적분
+Ctrl+D+P 미분+plot
+Ctrl+I+P 부정적분+plot
+Ctrl+Z 취소
+Ctrl+C 문자열형으로복사
+Ctrl+S 프로젝트저장/함수그림으로저장
+Delete 선택함수삭제
+DCREATED:20150413T173500
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

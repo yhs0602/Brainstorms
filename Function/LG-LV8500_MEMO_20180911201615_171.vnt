@@ -1,0 +1,13 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:MDF2op_II 완전컴파일함수
+function MDSF2(s[],o[])
+;esi,ebx는버린다
+mov edx,[esp+40];o
+mov ebx,[edx];o[0]
+cmp ebx,ADD
+movcex [edi+ecx],
+DCREATED:20150410T165700
+LAST-MODIFIED:20180911T201600
+CLASS:PUBLIC
+END:VNOTE

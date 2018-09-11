@@ -1,0 +1,12 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:plot.h
+Point O;
+func* FuncToDraw[20];
+void Plot(HDC hdc,int sx,int ex,func *f);
+void PlotEx(HDC hdc,int sx,int ex,int sy,int ey,func *f);
+void paint(HDC hdc);
+DCREATED:20150416T230300
+LAST-MODIFIED:20180911T201700
+CLASS:PUBLIC
+END:VNOTE

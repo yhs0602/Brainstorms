@@ -1,0 +1,19 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:Expression *getexpr(char** pp,int priority){
+char* p=*pp;
+Expression *i,*j,*k,*l;
+k=i=calloc(sizeof(Expression),1);
+l=j=calloc(sizeof(Expression),1);
+
+if(j==NULL||i==NULL){
+free(i);
+free(j);
+return NULL;
+}
+
+p=skipspace(p);
+DCREATED:20150615T230600
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

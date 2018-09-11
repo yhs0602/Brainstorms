@@ -1,0 +1,23 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:즉석컴파일makefunc ver2.0
+function makefunc2(const char s[]){
+//tokenizing은 빌린다
+//함수.6.3부분부터 갈아엎기
+//ti=token인덱스
+//*tokens[8]:토큰
+
+char* source=malloc(500);
+source="xor ecx,ecx￦mov eax,[esp+4]";
+
+switch(이 토큰의 0자){
+case '+':
+op=PLUS;
+bop=TRUE;
+}
+if(op==PLUS){
+
+DCREATED:20150425T195700
+LAST-MODIFIED:20180911T201800
+CLASS:PUBLIC
+END:VNOTE

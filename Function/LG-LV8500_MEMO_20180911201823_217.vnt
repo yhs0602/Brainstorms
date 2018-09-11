@@ -1,0 +1,17 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:즉석컴파일makefunc ver3.0
+C로 컴파일필요;;
+malloc으로 동적함수생성하려면 기계어를 써야하는데..
+이니면 함수를 matlab처럼 C로 쓰라고해서 카와이 히데미 오픈소스GCC컴파일러를 쓸수 있다
+또는?
+매크로에 트릭을 쓴다
+내가알지못했던 함수결합함수를 만든다
+효율적인 컴파일을 한다
+
+Q>log3  15…
+log15/log3
+DCREATED:20150506T135300
+LAST-MODIFIED:20180911T201800
+CLASS:PUBLIC
+END:VNOTE

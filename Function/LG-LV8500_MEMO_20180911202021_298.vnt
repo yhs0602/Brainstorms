@@ -1,0 +1,16 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:double calc(const char*s,double x){
+char* src=s;
+DEC dec;
+for(;;){
+switch(phase){
+case WF_OPERATOR:
+if(*s<0x20){//연산자
+switch(*s){
+case '+':
+dec.result[rindex]=dec.op1+dec.op2;
+DCREATED:20150610T173000
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

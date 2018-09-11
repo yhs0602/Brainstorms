@@ -1,0 +1,10 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:functions.h
+typedef double (*operator1)(double);
+typedef double (*operator2)(double,double);
+enum OPERATOR1 {}
+DCREATED:20150612T232300
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

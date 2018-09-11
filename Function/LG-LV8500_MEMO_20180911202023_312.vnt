@@ -1,0 +1,18 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:스택 증발에 따른 위험을 극복하기위해 동적 메모리할당을 사용했으나 포인터는 어렵기에 전체적으로 망했다
+
+⇒보수:
+
+1.반환형
+-pointer
+2.에러
+-모두 free 후 return NULL;
+-NULL을 받으면 모두 free후 return NULL;
+3.정상 처리시 free
+-free는 그 포인터가 가리키고 있는 메모리 영역을 버리는 것이다.
+-이름이 달라도 같은 영역을 차지하고 있으면 나도모르게 정보가 증발한다!
+DCREATED:20150614T195100
+LAST-MODIFIED:20180911T202000
+CLASS:PUBLIC
+END:VNOTE

@@ -1,0 +1,11 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:typedef struct tagfunc{
+double (*func)(double);
+tagfunc *next;
+UINT32 flags;
+}func;
+DCREATED:20141217T220000
+LAST-MODIFIED:20180911T201400
+CLASS:PUBLIC
+END:VNOTE

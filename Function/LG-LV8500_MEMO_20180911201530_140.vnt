@@ -1,0 +1,16 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:함수.6-4 makefunc4
+else{
+fnow=malloc(sizeof(func));
+fnow->next=NULL,fnow->fr=fsrc,fnow->r[NEX]=0;
+if(bfirst){
+funchead->next=fnow;
+bfirst=FALSE;
+}else{
+fprev->next=fnow;
+fnow->next=NULL,fnow->r[NEX]=0,fnow->fr=fsrc;
+DCREATED:20150302T131400
+LAST-MODIFIED:20180911T201500
+CLASS:PUBLIC
+END:VNOTE

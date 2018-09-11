@@ -1,0 +1,15 @@
+BEGIN:VNOTE
+VERSION:1.1
+BODY;CHARSET=UTF-8:미분기 인프라-다항함수C통째생성자
+POLY *CreatePoly(unsigned char var,unsigned int maxdegree){
+POLY* p=(POLY*)malloc(sizeof(POLY));
+p->variable=var;
+p->quotients=(*double)malloc(siseof(double)*maxdegree);
+p->mul=malloc(sizeof(POLYMUL*)*maxdegree;
+p->maxdegree=maxdegree;
+return p;
+}
+DCREATED:20140904T184800
+LAST-MODIFIED:20180911T201300
+CLASS:PUBLIC
+END:VNOTE
